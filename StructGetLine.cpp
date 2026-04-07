@@ -19,13 +19,15 @@ int main()
     //isi objek
     cout << "nama mahasiswa:";
     getline( cin, mhs.nama);
-    cout << "Alamat Desa:";
-    cin >> mhs.alamat.desa;
+    cout << "Alamat Desa: ";
     getline (cin, mhs.alamat.desa);
-    cin >> mhs.alamat.kota;
+    cout << "Alamat Kota: ";
+    getline (cin, mhs.alamat.kota);
     cout << "umur:";
     cin >> mhs.umur;
+    cin.ignore();
     cout <<endl;
+
     // menampilkan isi objek
     cout << "Nama Mahasiswa: " << mhs.nama<<endl;
     cout << "alamat Desa : " << mhs.alamat.desa<<endl;

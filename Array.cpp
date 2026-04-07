@@ -3,13 +3,25 @@ using namespace std;
 
 int main(){
     //Deklarasi Array dengan inisalisasi
-    int dataku[5] ={10,20,330,40,50};
+    int dataku[5] ={10,20,30,40,50};
     //Deklarasi tanpa inisialisasi
     int datamu[5];
     int x;
     //cara membaca array dataku
     cout << "data ke - 3 : " << dataku[2]<<endl;
     
+    // mengisi array satu satu
+    cout << "Data Index ke - 1: ";
+    cin >> datamu[0];
+    cout << "Data Index ke - 2: ";
+    cin >> datamu[1];
+    cout << "Data Index ke - 3: ";
+    cin >> datamu[2];
+    cout << "Data Index ke - 4: ";
+    cin >> datamu[3];
+    cout << "Data Index ke - 5: ";
+    cin >> datamu[4];
+
     //operasi matematika 
     x = dataku [2]*3;
     //cara menulis atau mengisi arrray

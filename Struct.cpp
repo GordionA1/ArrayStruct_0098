@@ -4,7 +4,7 @@ using namespace std;
 struct orang{
     string nama;
     string alamat;
-    string umur;
+    int umur;
 };
 
 int main()

@@ -7,6 +7,14 @@ int main(){
     //Deklarasi tanpa inisialisasi
     int datamu[5];
     int x;
+    //cara membaca array dataku
+    cout << "data ke - 3 : " << dataku[2]<<endl;
+    
+    //operasi matematika 
+    x = dataku [2]*3;
+    //cara menulis atau mengisi arrray
+    dataku[2] = 600;
+    cout << "data ke-3 yang baru : " <<dataku[2]<<endl;
 }
-//cara membaca array dataku
-cout << "data ke - 3 : " << dataku[2]<<endl;
+    
+    
